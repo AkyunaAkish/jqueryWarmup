@@ -9,8 +9,15 @@ $('#addButton').on('click', function(){
 
 $('#removeButton').on('click', function(){
 
-  for(var i = 0;i <= 11;i++){
-    $('#containingDiv').append('<p>what what what</p>');
+  if($('#removeInput').val() === 'delete'){
+
+    for(var i = 0;i <= 11;i++){
+
+      $('#containingDiv').children('p').each(function() {
+          $('p').remove();
+      });
+
+    }
 
   }
 

@@ -6,16 +6,21 @@
 </head>
 <body>
 
-  <button id="addButton">Add All</button>
+  <div>
+    <img id="imageToToggle" src="http://www.codematrics.com/wp-content/uploads/2015/11/jquery-1.png" alt="">
+    <br>
+    <button id="toggleImage">Toggle Image</button>
+  </div>
+  <br>
 
-  <input type="text" id="removeInput" placeholder="Write delete here">
-  <button id="removeButton">Delete All</button>
+  <div>
+    <label for="mainInput">Your text:</label>
+    <input type="text" id="mainInput">
+    <p id="previewParagraph"></p>
+  </div>
 
-
-
-  <div id="containingDiv"></div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="app.js"></script>
+
 </body>
 </html>

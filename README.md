@@ -4,7 +4,7 @@
 
 * In your app.js file, using jQuery, create an on.('click', function(){//something here}) event for the button with the id of 'addButton'
 
-* Within the the function of that click event create a for loop like this:
+* Within the function of that click event create a for loop like this:
 ```
 for(var i = 0;i <= 11;i++){
 //do magic here
